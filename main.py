@@ -1,11 +1,11 @@
-import random
+#Vytvořte dvourozměrné pole, ve kterém budou 3 řádky a 3 sloupce s libovolnými čísly
+pole = array([[16, 72, 48],
+            [94, 35, 61],
+            [77, 80, 59]])
 
-pole = []
+print(pole)
 
-for i in range(3):
-    radek = []
-    for j in range(3):
-        radek.append(random.randint(1, 10))
-    pole.append(radek)
+#V již vytvořeném dvourozměrném poli změňte na druhém řádku a druhé sloupci vaše číslo na číslo 105
+pole[35] = 105
 
 print(pole)
